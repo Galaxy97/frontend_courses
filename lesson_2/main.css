@@ -1,0 +1,31 @@
+.footer {
+  background-color: cadetblue;
+  text-align: right;
+  color: white;
+  font-weight: bold;
+}
+
+section {
+  margin: 5px auto;
+  width: 350px;
+  height: 150px;
+  background-color: aqua;
+}
+
+.dashed {
+  border: 2px dashed red;
+}
+
+.dotted {
+  background-color: yellow;
+  border: 2px dotted red;
+}
+
+.inset {
+  background-color: yellow;
+  border: 20px inset slateblue;
+}
+
+.left-solid {
+  border-left: 5px solid black
+}
