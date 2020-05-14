@@ -1,0 +1,78 @@
+/* normalize */
+@import url("https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css");
+/* roboto font */
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+
+body {
+  font-family: "Roboto", sans-serif;
+  background-color: rgb(29, 165, 165);
+}
+
+h1 {
+  margin: 0;
+  padding: 0;
+  font-size: 45px;
+
+  text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+}
+
+.red {
+  color: red;
+}
+.yellow {
+  color: yellow;
+}
+.greed {
+  color: green;
+}
+
+.content {
+  width: 70%;
+  margin: 25px auto;
+
+  display: flex;
+  flex-direction: column;
+}
+
+.header {
+  width: 40%;
+  align-self: center;
+
+  display: flex;
+  justify-content: space-around;
+}
+
+.images {
+  margin: 25px auto;
+  align-self: center;
+  width: 100%;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.img {
+  width: 20vw;
+  height: 30vh;
+  border-radius: 25px;
+
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.witcher {
+  background-image: url("../img/witcher.jpg");
+}
+.assasin {
+  background-image: url("../img/assasin.jpg");
+}
+.heroes {
+  background-image: url("../img/heroes.jpg");
+  background-position: top;
+}
+
+.text {
+  padding: 5px 15px;
+  text-align: center;
+  font-size: 24px;
+}
